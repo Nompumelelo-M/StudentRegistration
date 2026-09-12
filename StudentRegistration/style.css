@@ -1,0 +1,77 @@
+
+body{
+    background-color: rgb(215, 139, 47);
+}
+
+
+h1{
+    text-align: center;
+    color: beige;
+}
+
+label{
+    margin-left:60px;
+    font-size: 30px;
+    color:white
+    
+
+}
+
+#address{
+    margin-bottom:30px;
+
+    
+}
+
+#gender{
+    margin-left:200px;
+    font-size: 24px;
+}
+
+
+#submit{
+    font-size: 24px;
+    margin-left:60px;
+
+}
+
+input{
+    font-size: 24px;
+    margin-left: 200px;
+
+    
+}
+
+#reset{
+    margin-left:0px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding:10px;
+    
+}
+
+#submit{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding:10px;
+
+}
+
+p{
+    font-size: 30px;
+    color:white;
+    margin-left: 60px;
+    
+    
+
+    
+    
+}
+
+
+
+
+
+

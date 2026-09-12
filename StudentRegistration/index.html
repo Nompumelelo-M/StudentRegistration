@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+        
+    </head>
+    <body>
+
+        <h1>Student Registration</h1>
+        <table>
+        <tr>
+        <td><label>First Name :</label></td>
+        <td><input type="text" id="first_Name" placeholder="First Name"><br><br></td>
+        </tr>
+        <tr>
+        <td>
+        <label>Last Name :</label></td>
+        <td><input type="text" id="last_Name" placeholder="Last Name"><br><br></td>
+        </tr>
+         <tr>
+            <td>
+        <label>Date of Birth :</label></td>
+        <td><input id="date_of_Birth" type="date"><br><br></td>
+        </tr>
+        <tr>
+            <td>
+        <label>Email Address :</label></td>
+            <td><input id="email_Address" placeholder="Email Address" type="email"><br><br></td>
+        </tr>
+        <tr>
+            <td>
+        <label>Mobile Number :</label></td>
+        <td>
+        <input id="mobile_Number" placeholder="Mobile Number"><br><br>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <label>Gender :</label></td>
+        <td>
+        <select id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        </td>
+
+        <br><br>
+        </tr>
+        <tr>
+        <td>
+        <label>City :</label></td>
+        <td>
+        <input id="_city" placeholder="City"><br><br>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <label>Postal Code :</label></td>
+        <td>
+        <input id="postal_Code" placeholder="Postal Code"><br><br></td>
+        </tr>
+        <tr>
+            <td>
+        <label>Province :</label></td>
+        <td>
+        <input id="_province" placeholder="Province"><br><br>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <label>Country :</label>
+        </td>
+        <td>
+        <input id="_country" placeholder="Country"><br><br>
+        </td>
+        </tr>
+        </table>
+        <br><br>
+
+        <input id="submit" type="submit" onclick="Display()" value="Submit">
+        <input id="reset" type="reset" value="Reset" onclick="resetButton()">
+        <br><br>
+
+
+        <h1>Student Information</h1>
+        <br>
+
+    
+    
+        <p id="firstName"></p>
+        <p id="lastName"></p>
+        
+        <p id="emailAddress"></p>
+        <p id="mobileNumber"></p>
+        
+        <p id="city"></p>
+        <p id="postalCode"></p>
+        <p id="province"></p>
+        <p id="country"></p>
+    
+
+        
+
+    </body>
+</html>
